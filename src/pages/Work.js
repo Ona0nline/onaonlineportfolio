@@ -1,19 +1,24 @@
 import React from "react";
+import "../css/Work.css"
 
 const Work = () => {
 
     return (
-        <div>
-            <h1>Hey home</h1>
-            <ul className="nav justify-content-end">
-                <li className="nav-item">
-                    <a id="work" className="nav-link active" href="/work" target="_blank">Work</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="/about" target="_blank">About me</a>
-                </li>
+        <div className="scroll-container">
+            <section className="snap-section section1">
+                <h1>Project 1</h1>
+                <p>Description of Project 1 goes here.</p>
+            </section>
 
-            </ul>
+            <section className="snap-section section2">
+                <h1>Project 2</h1>
+                <p>Description of Project 2 goes here.</p>
+            </section>
+
+            <section className="snap-section section3">
+                <h1>Project 3</h1>
+                <p>Description of Project 3 goes here.</p>
+            </section>
         </div>
     )
 }

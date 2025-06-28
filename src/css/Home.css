@@ -1,0 +1,225 @@
+html,body{
+    background-color: #322E18;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.cardo-regular {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cardo-bold {
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cardo-regular-italic {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    src: url("../fonts/Molen-Surplus 400.otf") format("opentype");
+    src: url("../fonts/EFCO Brookshire Regular.ttf") format("truetype");
+    src: url("../fonts/FontsFree-Net-lucidity-condensed.ttf") format("truetype");
+    font-family: "circle";
+    src: url("../fonts/Bright Circle.otf") format("opentype");
+}
+
+h1{
+    color:#ff6d1f;
+    font-family: "circle";
+    font-size: 120px;
+    width:800px;
+    height:100px;
+}
+
+.typewriter{
+    color:#ff6d1f;
+    font-family: "circle";
+    font-size: 80px;
+    width:800px;
+    height:100px;
+}
+
+ul li a {
+    color: #222222 !important;
+
+}
+
+scroll-container {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.snap-section {
+    height: 100vh;
+    width: 100vw; /* fill full viewport width */
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column; /* stack children vertically */
+    overflow: hidden; /* prevent inner scrollbars on section */
+    position: relative;
+}
+
+.section1 {
+    background-color: #849324;
+}
+
+.section2 {
+    background-color: #849324;
+}
+
+.projects-gallery {
+    padding: 0;
+    background-color: #849324;
+    /* Make sure vertical scroll doesn’t trigger here */
+    overflow-x: hidden; /* good to hide any horizontal overflow outside the container */
+    width: 100vw;       /* full viewport width */
+    height: 100%;       /* fill parent height (snap-section) */
+    display: flex;
+    align-items: center;
+
+}
+
+.projects-container {
+    display: flex;
+    transform: translateY(150px);
+    gap: 30px;
+    overflow-x: auto;                /* enable horizontal scrolling */
+    scroll-snap-type: x mandatory;  /* snap horizontally */
+    -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+    padding: 10px;                   /* optional, some breathing room */
+    height: 100%;                   /* fill container height */
+    scroll-padding-left: 30px;
+}
+
+.projects-container::-webkit-scrollbar {
+    display: none;                /* Chrome, Safari, Edge */
+}
+
+.project-card {
+    flex: 0 0 auto;        /* don't shrink or grow, fixed width */
+    width: 400px;
+    height: 250px;
+    background: #EBEBD3;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    scroll-snap-align: start;  /* snap alignment */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.project-card1 {
+    position: relative;
+    /*ensures no outspill*/
+    overflow: hidden;
+}
+
+.responsive-iframe1 {
+
+    width: 1200px;
+    height: 800px;
+    border: none;
+    object-fit: cover;
+    border-radius: 12px;
+    transform: scale(0.35);
+    transform-origin: top left;
+    border: none;
+    position: absolute;
+    top: 2%;
+    left: 0.2%;
+    /*right: 20%;*/
+}
+
+
+
+#work:active{
+    text-decoration: underline;
+}
+
+
+.nav-link{
+    font-size: 24px;
+    font-family: "circle";
+}
+
+.progress{
+    background-color: #faf3e1;
+}
+
+.progress-bar{
+    background-color: #222222;
+}
+#htmlBar{
+    transform: translateY(350px);
+    font-family: "circle", serif;
+}
+
+#projects{
+    transform: scale(0.9) translateY(400px);
+    margin-bottom: 20px;
+}
+
+#onaonline{
+    font-size: 18px;
+    color:#222222;
+    font-family: "circle", serif;
+}
+
+#moreME{
+    font-size:20px;
+}
+
+#onaonline:hover,#suade:hover,#weather:hover{
+    cursor: pointer;
+
+}
+
+#onaonline,#suade,#weather{
+    font-family: "molen";
+    font-size: 20px;
+    font-family: "Cardo";
+}
+
+footer{
+    margin-top:90px;
+    margin-bottom: 90px;
+    border-radius: 20px;
+
+    font-size: 18px;
+    font-family: "circle";
+}
+
+
+
+h3{
+    color:#ff6d1f;
+}
+
+p{
+    color:#222222;
+    font-family: "Cardo";
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+
+.blink {
+    animation: blink 1s steps(5, start) 0s infinite;
+}

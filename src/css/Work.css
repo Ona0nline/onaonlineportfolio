@@ -1,0 +1,34 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.scroll-container {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.snap-section {
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.section1 {
+    background-color: #EBEBD3;
+}
+
+.section2 {
+    background-color: #849324;
+}
+
+.section3 {
+    background-color: #5e89f5;
+}
