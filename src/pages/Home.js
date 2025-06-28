@@ -37,7 +37,7 @@ const Home = () => {
                         <div>
                             <h2>Persoal</h2>
                             <div className="project-card project-card1">
-                                <iframe className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
+                                <iframe  title="Description of this iframe content" className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
                             </div>
                             <p>Caption</p>
 
@@ -47,7 +47,7 @@ const Home = () => {
                         <div>
                             <h2>Persoal</h2>
                             <div className="project-card project-card1">
-                                <iframe className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
+                                <iframe  title="Description of this iframe content" className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
                             </div>
                             <p>Caption</p>
                         </div>
@@ -55,7 +55,7 @@ const Home = () => {
                         <div>
                             <h2>Persoal</h2>
                             <div className="project-card project-card1">
-                                <iframe className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
+                                <iframe  title="Description of this iframe content" className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
                             </div>
                             <p>Caption</p>
                         </div>
@@ -63,7 +63,7 @@ const Home = () => {
                         <div>
                             <h2>Persoal</h2>
                             <div className="project-card project-card1">
-                                <iframe className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
+                                <iframe  title="Description of this iframe content" className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
                             </div>
                             <p>Caption</p>
                         </div>
@@ -71,7 +71,7 @@ const Home = () => {
                         <div>
                             <h2>Persoal</h2>
                             <div className="project-card project-card1">
-                                <iframe className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
+                                <iframe  title="Description of this iframe content" className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
                             </div>
                             <p>Caption</p>
                         </div>
@@ -79,7 +79,7 @@ const Home = () => {
                         <div>
                             <h2>Persoal</h2>
                             <div className="project-card project-card1">
-                                <iframe className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
+                                <iframe  title="Description of this iframe content" className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
                             </div>
                             <p>Caption</p>
                         </div>
@@ -145,7 +145,7 @@ const Home = () => {
                 <div className="row">
                     <div className="col-md-12">
                         eslint-disable-next-line
-                        <iframe className="mb-10 responsive-iframe" src="https://onaonline.netlify.app/" width="100%" height="600px" frameBorder="0"></iframe>
+                        <iframe  title="Description of this iframe content" className="mb-10 responsive-iframe" src="https://onaonline.netlify.app/" width="100%" height="600px" frameBorder="0"></iframe>
                         <p id="onaonline" className="mb-10">
                             More
                             <i id="right-arrow" className="bx bx-right-arrow-alt" data-bs-toggle="collapse" data-bs-target="#moreME"></i>
@@ -161,7 +161,7 @@ const Home = () => {
 
                     <div className="col-md-12">
                         eslint-disable-next-line
-                        <iframe className="responsive-iframe" src="https://suadeclothing.netlify.app/" width="100%" height="600px" frameBorder="0"></iframe>
+                        <iframe  title="Description of this iframe content" className="responsive-iframe" src="https://suadeclothing.netlify.app/" width="100%" height="600px" frameBorder="0"></iframe>
                         <p id="onaonline" className="mb-10">
                             More
                             <i id="right-arrow" className="bx bx-right-arrow-alt" data-bs-toggle="collapse" data-bs-target="#suade"></i>
@@ -180,7 +180,7 @@ const Home = () => {
                 <div className="row">
                     <div className="col-md-12">
                         eslint-disable-next-line
-                        <iframe className="responsive-iframe" src="https://ona0nlineweatherapp.netlify.app/" width="100%" height="600px" frameBorder="0"></iframe>
+                        <iframe  title="Description of this iframe content" className="responsive-iframe" src="https://ona0nlineweatherapp.netlify.app/" width="100%" height="600px" frameBorder="0"></iframe>
                         <p id="onaonline" className="mb-10">
                             More
                             <i id="right-arrow" className="bx bx-right-arrow-alt" data-bs-toggle="collapse" data-bs-target="#weather"></i>
