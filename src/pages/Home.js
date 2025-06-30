@@ -45,7 +45,7 @@ const Home = () => {
 
 
                         <div>
-                            <h2>Persoal</h2>
+                            <h2>Personal</h2>
                             <div className="project-card project-card1">
                                 <iframe  title="Persomal site" className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
                             </div>
@@ -53,7 +53,7 @@ const Home = () => {
                         </div>
 
                         <div>
-                            <h2>Persoal</h2>
+                            <h2>Case management system</h2>
                             <div className="project-card project-card1">
                                 <iframe  title="Case management system" className="mb-10 responsive-iframe1" src="https://casemanagementsystemlaw.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
                             </div>
@@ -69,7 +69,7 @@ const Home = () => {
                         </div>
 
                         <div>
-                            <h2>Persoal</h2>
+                            <h2>Dictionary app</h2>
                             <div className="project-card project-card1">
                                 <iframe  title="Dictionary app" className="mb-10 responsive-iframe1" src="https://onareactdictionary.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
                             </div>
@@ -77,9 +77,9 @@ const Home = () => {
                         </div>
 
                         <div>
-                            <h2>Persoal</h2>
+                            <h2>AI Recipe generator</h2>
                             <div className="project-card project-card1">
-                                <iframe  title="Description of this iframe content" className="mb-10 responsive-iframe1" src="https://airecipegen.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
+                                <iframe  title="AI recipe generator" className="mb-10 responsive-iframe1" src="https://airecipegen.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
                             </div>
                             <p>Caption</p>
                         </div>
