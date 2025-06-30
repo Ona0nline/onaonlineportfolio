@@ -13,7 +13,7 @@ const Home = () => {
 
                 <ul className="nav justify-content-end">
                     <li className="nav-item">
-                        <a id="work" className="nav-link active" href="/work" target="_blank">Work</a>
+                        <a id="work" className="nav-link active" href="#projects">Work</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="/about" target="_blank">About me</a>
@@ -32,12 +32,12 @@ const Home = () => {
 
             <div className={"snap-section section2"}>
 
-                <section className="projects-gallery">
+                <section id={"projects"} className="projects-gallery">
                     <div className="projects-container">
                         <div>
                             <h2>Persoal</h2>
                             <div className="project-card project-card1">
-                                <iframe  title="Description of this iframe content" className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
+                                <iframe  title="Personal project" className="mb-10 responsive-iframe1" src="https://springboottodowebapp-a48e57bb0bc7.herokuapp.com/login" width="100%" height="700px" frameBorder="0"></iframe>
                             </div>
                             <p>Caption</p>
 
@@ -47,7 +47,7 @@ const Home = () => {
                         <div>
                             <h2>Persoal</h2>
                             <div className="project-card project-card1">
-                                <iframe  title="Description of this iframe content" className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
+                                <iframe  title="React dictionary app" className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
                             </div>
                             <p>Caption</p>
                         </div>
