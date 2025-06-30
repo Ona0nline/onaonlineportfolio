@@ -61,9 +61,9 @@ const Home = () => {
                         </div>
 
                         <div>
-                            <h2>Persoal</h2>
+                            <h2>Doodletodo</h2>
                             <div className="project-card project-card1">
-                                <iframe  title="Description of this iframe content" className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
+                                <iframe  title="Doodletodo" className="mb-10 responsive-iframe1" src="https://doodletodo.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
                             </div>
                             <p>Caption</p>
                         </div>
@@ -71,7 +71,7 @@ const Home = () => {
                         <div>
                             <h2>Persoal</h2>
                             <div className="project-card project-card1">
-                                <iframe  title="Description of this iframe content" className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
+                                <iframe  title="Dictionary app" className="mb-10 responsive-iframe1" src="https://onareactdictionary.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
                             </div>
                             <p>Caption</p>
                         </div>
@@ -79,7 +79,7 @@ const Home = () => {
                         <div>
                             <h2>Persoal</h2>
                             <div className="project-card project-card1">
-                                <iframe  title="Description of this iframe content" className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
+                                <iframe  title="Description of this iframe content" className="mb-10 responsive-iframe1" src="https://airecipegen.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
                             </div>
                             <p>Caption</p>
                         </div>
