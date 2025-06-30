@@ -93,7 +93,7 @@ scroll-container {
 
 .projects-container {
     display: flex;
-    transform: translateY(100px);
+    /*transform: translateY(40px);*/
     gap: 30px;
     overflow-x: auto;                /* enable horizontal scrolling */
     scroll-snap-type: x mandatory;  /* snap horizontally */
