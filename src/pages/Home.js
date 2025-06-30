@@ -35,7 +35,7 @@ const Home = () => {
                 <section id={"projects"} className="projects-gallery">
                     <div className="projects-container">
                         <div>
-                            <h2>Persoal</h2>
+                            <h2>Springboot Todo Web App</h2>
                             <div className="project-card project-card1">
                                 <iframe  title="Spring todo" className="mb-10 responsive-iframe1" src="https://springboottodowebapp-a48e57bb0bc7.herokuapp.com" width="100%" height="700px" frameBorder="0"></iframe>
                             </div>
@@ -47,7 +47,7 @@ const Home = () => {
                         <div>
                             <h2>Persoal</h2>
                             <div className="project-card project-card1">
-                                <iframe  title="React dictionary app" className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
+                                <iframe  title="Persomal site" className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
                             </div>
                             <p>Caption</p>
                         </div>
@@ -55,7 +55,7 @@ const Home = () => {
                         <div>
                             <h2>Persoal</h2>
                             <div className="project-card project-card1">
-                                <iframe  title="Description of this iframe content" className="mb-10 responsive-iframe1" src="https://onaonline.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
+                                <iframe  title="Case management system" className="mb-10 responsive-iframe1" src="https://casemanagementsystemlaw.netlify.app/" width="100%" height="700px" frameBorder="0"></iframe>
                             </div>
                             <p>Caption</p>
                         </div>
