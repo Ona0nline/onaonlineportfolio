@@ -38,6 +38,16 @@ h1{
     height:100px;
 }
 
+h2{
+    color: #EBEBD3;
+    font-family: "circle";
+    font-size: 30px;
+}
+
+.captions{
+    font-size: 18px;
+}
+
 .typewriter{
     color:#ff6d1f;
     font-family: "circle";
@@ -141,6 +151,10 @@ scroll-container {
     top: 2%;
     left: 0.2%;
     /*right: 20%;*/
+}
+
+#aboutMeContainer{
+    background-color: #ff6d1f;
 }
 
 
